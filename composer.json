@@ -1,0 +1,22 @@
+{
+    "name": "ozyab/pubproxy-rand",
+    "description": "Get one rand proxy server from pubproxy.com. No API key required.",
+    "type": "library",
+    "require": {
+	    "php": ">=7.1",
+        "guzzlehttp/guzzle": "^6.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maxim Yu",
+            "email": "maximyuferev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Ozyab\\": "src/"
+        }
+    }
+}
